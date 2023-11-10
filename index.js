@@ -10,3 +10,7 @@ export function sum(a, b) {
 export function count(a) {
   return a.length
 }
+
+export function count2(...a) {
+  return a.length
+}
