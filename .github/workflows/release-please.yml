@@ -16,6 +16,6 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         with:
           release-type: node
+          token: ${{ secrets.PAT }}
           package-name: '@romanpateichuk/hellopackag'
-    env:
-      GITHUB_TOKEN: ${{ secrets.PAT }}
+
