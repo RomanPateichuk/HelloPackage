@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/RomanPateichuk/HelloPackage/compare/v1.3.1...v1.4.0) (2023-11-10)
+
+
+### Features
+
+* add text ([0991c17](https://github.com/RomanPateichuk/HelloPackage/commit/0991c1769f2b5d9874c819b30339eb404fd4f393))
+
 ## [1.3.1](https://github.com/RomanPateichuk/HelloPackage/compare/v1.3.0...v1.3.1) (2023-11-10)
 
 
