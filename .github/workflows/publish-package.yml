@@ -2,7 +2,7 @@ name: publish-package
 
 on:
   release:
-    types: [published]
+    types: [created]
     branches: [main]
 permissions:
   packages: write
