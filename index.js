@@ -12,6 +12,6 @@ export function count2(...a) {
   return a.length
 }
 
-export function count3(...a) {
-  return a.length
+export function count3(a) {
+  return a
 }
