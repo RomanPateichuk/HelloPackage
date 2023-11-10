@@ -17,3 +17,5 @@ jobs:
         with:
           release-type: node
           package-name: '@romanpateichuk/hellopackag'
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
