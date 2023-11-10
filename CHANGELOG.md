@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.6](https://github.com/RomanPateichuk/HelloPackage/compare/v1.5.5...v1.5.6) (2023-11-10)
+
+
+### Bug Fixes
+
+* bug fixed ([461a20d](https://github.com/RomanPateichuk/HelloPackage/commit/461a20de5445d7f812361240aef6bfae7d50d7e1))
+
 ## [1.5.5](https://github.com/RomanPateichuk/HelloPackage/compare/v1.5.4...v1.5.5) (2023-11-10)
 
 
