@@ -1,29 +1,23 @@
-name: publish-package
-
+name: Publish package to GitHub Packages
 on:
   release:
-    types: [created]
-    branches: [main]
-permissions:
-  packages: write
-  contents: read
-
+    types: [published]
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@v4
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
           registry-url: https://npm.pkg.github.com/
-
       - name: Install dependencies
         run: npm ci
-
       - name: Publish package
         run: npm publish
         env:
