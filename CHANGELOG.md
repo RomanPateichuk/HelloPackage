@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/RomanPateichuk/HelloPackage/compare/v1.9.0...v1.10.0) (2023-11-10)
+
+
+### Features
+
+* dsfsgdgdfg ([c26dad0](https://github.com/RomanPateichuk/HelloPackage/commit/c26dad0476ed0c453e250a856b2cc1b7976a2987))
+
 ## [1.9.0](https://github.com/RomanPateichuk/HelloPackage/compare/v1.8.0...v1.9.0) (2023-11-10)
 
 
