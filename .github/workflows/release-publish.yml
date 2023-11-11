@@ -1,4 +1,4 @@
-name: release package and maybe publish
+name: release package and publish
 on:
   push:
     branches:
