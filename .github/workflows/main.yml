@@ -1,0 +1,14 @@
+name: Release please with Bot
+on:
+  push:
+    branches:
+      - master
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Use release-please
+        uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: terraform-module 
+          default-branch: master
