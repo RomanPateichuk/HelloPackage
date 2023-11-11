@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
+        id: release
         with:
           release-type: terraform-module
           package-name: '@romanpateichuk/hellopackag'
@@ -25,5 +26,5 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
         if: ${{ steps.release.outputs.release_created }}
