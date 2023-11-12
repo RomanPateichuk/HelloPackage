@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.21.1](https://github.com/RomanPateichuk/HelloPackage/compare/v1.21.0...v1.21.1) (2023-11-12)
+
+
+### Bug Fixes
+
+* add text fro new release!! ([f7423de](https://github.com/RomanPateichuk/HelloPackage/commit/f7423de765b968ed8734fd1b4483d1fee8585044))
+
 ## [1.21.0](https://github.com/RomanPateichuk/HelloPackage/compare/v1.20.0...v1.21.0) (2023-11-12)
 
 
