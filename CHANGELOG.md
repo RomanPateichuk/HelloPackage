@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.23.0](https://github.com/RomanPateichuk/HelloPackage/compare/v1.22.0...v1.23.0) (2023-11-12)
+
+
+### Features
+
+* Update index.html ([21d5d9f](https://github.com/RomanPateichuk/HelloPackage/commit/21d5d9f7db3dc53bb82dff821aa460d441f62f50))
+
 ## [1.22.0](https://github.com/RomanPateichuk/HelloPackage/compare/v1.21.3...v1.22.0) (2023-11-12)
 
 
