@@ -10,5 +10,6 @@ jobs:
       - name: Use release-please
         uses: google-github-actions/release-please-action@v3
         with:
+          github-token: ${{ secrets.PAT }}
           release-type: terraform-module 
           default-branch: main
