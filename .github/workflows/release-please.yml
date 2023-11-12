@@ -8,9 +8,9 @@ on:
 jobs:
   release-please:
     runs-on: ubuntu-latest
-    env:
-      github-token: ${{ secrets.PAT }}
     steps:
+      - env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
       - name: Use release-please
         uses: google-github-actions/release-please-action@v3
         with:
