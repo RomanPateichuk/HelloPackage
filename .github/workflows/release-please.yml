@@ -6,14 +6,12 @@ on:
     paths-ignore:
       - '.github/workflows/*' 
 jobs:
-  release-please:
+  release:
     runs-on: ubuntu-latest
     steps:
-      - name: Auth
-      - env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
-      - name: Release
-        uses: google-github-actions/release-please-action@v3
-        with:
-          release-type: terraform-module 
-          default-branch: main
+    - env:
+        GITHUB_TOKEN: ${{ secrets.PAT }}
+      uses: google-github-actions/release-please-action@v3
+      with:
+        release-type: terraform-module 
+        default-branch: main
