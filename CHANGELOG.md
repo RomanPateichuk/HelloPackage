@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.22.0](https://github.com/RomanPateichuk/HelloPackage/compare/v1.21.3...v1.22.0) (2023-11-12)
+
+
+### Features
+
+* Abra cadabra ([5e4e0e4](https://github.com/RomanPateichuk/HelloPackage/commit/5e4e0e449a150f4dd49022a2a69f34dc2d1e95e1))
+
 ## [1.21.3](https://github.com/RomanPateichuk/HelloPackage/compare/v1.21.2...v1.21.3) (2023-11-12)
 
 
