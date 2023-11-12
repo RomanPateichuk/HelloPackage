@@ -1,8 +1,10 @@
 name: Release please with Bot
 on:
   push:
-    branches:
+    branches: 
       - main
+    paths-ignore:
+      - '.github/workflows/*' 
 jobs:
   release-please:
     runs-on: ubuntu-latest
@@ -10,5 +12,6 @@ jobs:
       - name: Use release-please
         uses: google-github-actions/release-please-action@v3
         with:
+          github-token: ${{ secrets.PAT }}
           release-type: terraform-module 
           default-branch: main
