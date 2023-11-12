@@ -10,7 +10,7 @@ jobs:
       packages: write
     steps:
     - env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+        GITHUB_TOKEN: ${{ secrets.PAT }}
     - name: Checkout code
       uses: actions/checkout@v4
     - name: Set up Node.js
