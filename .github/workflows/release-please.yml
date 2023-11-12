@@ -16,6 +16,6 @@ jobs:
       uses: google-github-actions/release-please-action@v3
       with:
         token: ${{ secrets.PAT }}
-        release-type: terraform-module
+        release-type: node
         package-name: '@romanpateichuk/hellopackage'
         default-branch: main
