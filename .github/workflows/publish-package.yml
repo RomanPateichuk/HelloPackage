@@ -9,6 +9,7 @@ jobs:
       contents: read
       packages: write
     steps:
+    - name: Auth
     - env:
         GITHUB_TOKEN: ${{ secrets.PAT }}
     - name: Checkout code
