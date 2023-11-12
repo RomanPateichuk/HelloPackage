@@ -10,9 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Release
-      env: 
-        GITHUB_TOKEN: ${{ secrets.PAT }}
       uses: google-github-actions/release-please-action@v3
       with:
+        GITHUB_TOKEN: ${{ secrets.PAT }}
         release-type: terraform-module 
         default-branch: main
