@@ -8,9 +8,9 @@ jobs:
     permissions:
       contents: read
       packages: write
-    env:
-       github-token: ${{ secrets.PAT }}
     steps:
+      - env:
+           GITHUB_TOKEN: ${{ secrets.PAT }}
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Set up Node.js
