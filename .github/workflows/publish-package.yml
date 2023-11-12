@@ -10,7 +10,7 @@ jobs:
       packages: write
     steps:
     - name: Auth
-    - env:
+      env:
         GITHUB_TOKEN: ${{ secrets.PAT }}
     - name: Checkout code
       uses: actions/checkout@v4
