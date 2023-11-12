@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.18.0](https://github.com/RomanPateichuk/HelloPackage/compare/v1.17.0...v1.18.0) (2023-11-12)
+
+
+### Features
+
+* add text fro new release!! ([c458be9](https://github.com/RomanPateichuk/HelloPackage/commit/c458be959c5e2f1f7160ee07f47c908d26feaccc))
+
 ## [1.17.0](https://github.com/RomanPateichuk/HelloPackage/compare/v1.16.0...v1.17.0) (2023-11-12)
 
 
