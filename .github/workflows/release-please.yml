@@ -1,8 +1,10 @@
 name: Release please with Bot
 on:
   push:
-    branches:
+    branches: 
       - main
+    paths-ignore:
+      - '.github/workflows/*' 
 jobs:
   release-please:
     runs-on: ubuntu-latest
